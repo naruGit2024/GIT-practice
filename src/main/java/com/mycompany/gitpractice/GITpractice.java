@@ -23,7 +23,7 @@ public class GITpractice {
         
         System.out.println("shtshtshtsht");
         
-        hollow_box(num);
+        mother(num);
         
     }
     public static void descending(int num){
@@ -67,7 +67,7 @@ public class GITpractice {
         System.out.println("Runtime: " + duration + " nanoseconds");
     }
     
-    public static void hollow_box(int num){
+    public static void mother(int num){
         for(int i = 1; i<= num; i++){
             for (int j = 1; j<=num; j++){
                 if (i==num || j == num || i==1|| j ==1 ){
