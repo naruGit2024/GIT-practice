@@ -23,12 +23,8 @@ public class GITpractice {
         
         System.out.println("shtshtshtsht");
         
-<<<<<<< HEAD
-        just_box(num);
-=======
-        mother(num);
->>>>>>> feature-2
-        
+
+        just_box(num);  
     }
     public static void descending(int num){
         for(int i  = 1; i <= num ; i++){
@@ -71,11 +67,9 @@ public class GITpractice {
         System.out.println("Runtime: " + duration + " nanoseconds");
     }
     
-<<<<<<< HEAD
+
     public static void just_box(int num){
-=======
-    public static void mother(int num){
->>>>>>> feature-2
+
         for(int i = 1; i<= num; i++){
             for (int j = 1; j<=num; j++){
                 if (i==num || j == num || i==1|| j ==1 ){
