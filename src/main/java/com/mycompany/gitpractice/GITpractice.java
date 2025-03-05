@@ -13,6 +13,7 @@ public class GITpractice {
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
+        System.out.println("Hi this i my first GIT hub repo WHOOOOOO!!!");
         System.out.println("Title: THE partern shit");
         System.out.print("Enter number: ");
         int num = s.nextInt();
